@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Optertnative</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/styles/normalize.css" />
+	<link rel="stylesheet" href="assets/styles/styles.css" />
+</head>
+
+<body>
+
+	<!-- Video Markup -->
+	<section class="masthead">
+		<video class="masthead-video" autoplay loop muted poster="assets/images/fallback2.png">
+			<source src="assets/videos/siteloopv1.mp4" type="video/mp4">
+			<source src="assets/videos/siteloopsv1.webm" type="video/webm">
+		</video>
+		<div class="masthead-overlay"></div>
+		<div class="masthead-arrow"></div>
+		<h1>Opternative<span>Get Your Glasses or Contacts Prescription Online</span></h1>
+		<a class="masthead-video-credit" href="http://vimeo.com/82495711" target="_blank">
+			<span>Video: Opternative</span>
+			<span>by Ben Derico</span>
+		</a>
+	</section>
+	<section class="content">
+		<div class="container">
+			<h2>Why is it special?</h2>
+			<p> Opternative is as accurate as an in-person refractive eye exam. </p>
+			<h2>How do I use it?</h2>
+			<ol>
+				<li>Sign Up Free </li>
+				<li>Take Our Exam</li>
+				<li> Doctor Reveiw </li>
+				<li>Get Your Prescription</li>
+			</ol>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<hr />
+			<iframe src="http://ghbtns.com/github-btn.html?user=stefanerickson&repo=covervid&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+			<iframe src="http://ghbtns.com/github-btn.html?user=stefanerickson&repo=covervid&type=fork&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="156px" height="30px"></iframe>
+			<iframe src="http://ghbtns.com/github-btn.html?user=stefanerickson&type=follow&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="224px" height="30px"></iframe>
+		</div>
+	</footer>
+
+	<!-- Load Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="covervid.js"></script>
+	<script src="assets/scripts/scripts.js"></script>
+
+	<!-- Call CoverVid -->
+	<script type="text/javascript">
+		// If using jQuery
+			// $('.masthead-video').coverVid(1920, 1080);
+		// If not using jQuery (Native Javascript)
+			coverVid(document.querySelector('.masthead-video'), 640, 360);
+	</script>
+
+</body>
+
+</html>
